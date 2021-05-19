@@ -1,0 +1,7 @@
+[user]
+	email = wdingman@asymmetrik.com
+	name = Wes Dingman
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = /Users/wdingman/.gitignore

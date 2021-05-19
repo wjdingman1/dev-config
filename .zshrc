@@ -1,0 +1,43 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+ZSH_DISABLE_COMPFIX="true"
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/wdingman/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+
+plugins=(zsh-autosuggestions zsh-syntax-highlighting)
+
+source $ZSH/oh-my-zsh.sh
+
+# Zsh
+alias zshconfig='vim ~/.zshrc'
+alias ohmyzsh='vim ~/.oh-my-zsh'
+
+get-port() {
+	command lsof -i:"$@"
+}
+# Config
+alias config='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
+
+# Docker
+alias d='docker'
+alias di='docker images'
+alias dk='docker kill $(docker ps -qa)'
+alias dpsa='docker ps -a'
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down'
+
+
+# Git
+alias g='git'
+alias gcm='git commit -m'
+alias ga='git add .'
+alias gb='git branch'
+alias gbd='git branch -D'
+alias gba='git branch -a'
+alias gchb='git checkout -b'
+alias gch='git checkout' 
+alias gpl='git pull'
+alias gpu='git push'
