@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-git init --bare $HOME/.config-env.git
-$config="usr/bin/git --git-dir=$HOME/.config-env.git/ --work-tree=$HOME"
+git init --bare $HOME/.dev-config.git
+$config="usr/bin/git --git-dir=$HOME/.dev-config.git/ --work-tree=$HOME"
 $config config --local status.showUntrackedFiles no
 
 FILE=$HOME/.zshrc
