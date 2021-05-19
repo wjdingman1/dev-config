@@ -13,7 +13,7 @@ if [ ! -f "$FILE" ]; then
     touch $FILE
 fi
 
-if ! grep -q ".dev-config.git" $HOME/gitignore; then
+if ! grep -q ".dev-config.git" $HOME/.gitignore; then
     echo ".dev-config.git" >> $HOME/.gitignore
 fi
 
