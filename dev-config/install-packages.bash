@@ -23,6 +23,7 @@ ansible \
 yarn \
 ffmpeg \
 netlify-cli \
+ripgrep \
 golang \
 autossh \
 htop \
