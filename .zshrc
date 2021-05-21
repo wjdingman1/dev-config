@@ -15,10 +15,22 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig='vim ~/.zshrc'
 alias ohmyzsh='vim ~/.oh-my-zsh'
 
+# Java
+export JAVA_HOME='/usr/libexec/java_home'
+
+# Random Helpers
 get-port() {
 	command lsof -i:"$@"
 }
-# Config
+
+
+
+# Broad
+alias cromr='java -jar ~/Broad/Lantern/bin/cromwell-63.jar run'
+alias croms='java -jar -server ~/Broad/Lantern/bin/cromwell-63.jar run'
+alias wom='java -jar ~/Broad/Lantern/bin/womtool-63.jar'
+
+# Development Git Config
 alias config='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
 
 # Docker

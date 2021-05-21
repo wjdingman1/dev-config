@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-brew cask install 
+brew install --cask
 iterm2 \
 brave-browser \
 slack \
@@ -9,8 +9,6 @@ grammarly \
 spotify \
 postman \
 visual-studio-code
-
-
 
 
 brew install \
@@ -25,9 +23,7 @@ ffmpeg \
 netlify-cli \
 ripgrep \
 golang \
-autossh \
-htop \
-zsh
+autossh 
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
