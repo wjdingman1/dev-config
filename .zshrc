@@ -23,8 +23,6 @@ get-port() {
 	command lsof -i:"$@"
 }
 
-
-
 # Broad
 alias cromr='java -jar ~/Broad/Lantern/bin/cromwell-63.jar run'
 alias croms='java -jar -server ~/Broad/Lantern/bin/cromwell-63.jar run'
@@ -40,7 +38,6 @@ alias dk='docker kill $(docker ps -qa)'
 alias dpsa='docker ps -a'
 alias dcu='docker-compose up -d'
 alias dcd='docker-compose down'
-
 
 # Git
 alias g='git'
