@@ -19,7 +19,6 @@ kubectl \
 python3 \
 ansible \
 yarn \
-ffmpeg \
 netlify-cli \
 ripgrep \
 golang \

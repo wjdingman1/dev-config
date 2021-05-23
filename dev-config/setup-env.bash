@@ -21,3 +21,8 @@ fi
 
 $config checkout
 $config config --local status.showUntrackedFiles no
+
+FILE=$HOME/.zshrc
+if [ -f "$FILE" ]; then
+    echo "alias config="$config"" >> $FILE
+fi
