@@ -34,10 +34,11 @@ curl https://github.com/mbadolato/iTerm2-Color-Schemes/tarball/master | tar -xz
 pip3 install --upgrade \
 pip \
 setuptools \
-wheel
+wheel 
 
 pip3 install \
 virtualenv \
+pipenv \ 
 cookiecutter \
 neovim \
 pylint 
