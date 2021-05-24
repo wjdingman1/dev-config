@@ -31,6 +31,10 @@ alias wom='java -jar ~/Broad/Lantern/bin/womtool-63.jar'
 # Development Git Config
 alias config='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
 
+# Python
+alias python="python3"
+alias pip="pip3"
+
 # Docker
 alias d='docker'
 alias di='docker images'
