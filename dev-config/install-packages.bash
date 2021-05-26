@@ -18,6 +18,7 @@ helm \
 kubectl \
 python3 \
 ansible \
+hugo \
 yarn \
 netlify-cli \
 ripgrep \

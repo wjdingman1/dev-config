@@ -35,6 +35,11 @@ alias config='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
 alias python="python3"
 alias pip="pip3"
 
+# Go
+export GOPATH=$HOME/go
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+
 # Docker
 alias d='docker'
 alias di='docker images'
