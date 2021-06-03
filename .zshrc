@@ -59,3 +59,9 @@ alias gchb='git checkout -b'
 alias gch='git checkout' 
 alias gpl='git pull'
 alias gpu='git push'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/wdingman/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/wdingman/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/wdingman/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/wdingman/google-cloud-sdk/completion.zsh.inc'; fi
