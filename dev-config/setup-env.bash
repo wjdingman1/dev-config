@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -env
 
-if ! brew list -1 | grep -q git; then
+if ! brew list -1 | grep git; then
     brew install git
 fi
 
