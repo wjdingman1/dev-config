@@ -17,6 +17,7 @@ node \
 helm \
 kubectl \
 python3 \
+tree \
 ansible \
 hugo \
 yarn \
