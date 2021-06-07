@@ -15,6 +15,7 @@ brew install \
 git \
 node \
 helm \
+docker \
 kubectl \
 python3 \
 tree \
@@ -24,14 +25,15 @@ yarn \
 netlify-cli \
 ripgrep \
 golang \
-autossh 
+autossh \
+aquasecurity/trivy/trivy
+
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # iterm2 themes https://iterm2colorschemes.com/
 curl https://github.com/mbadolato/iTerm2-Color-Schemes/tarball/master | tar -xz
-
 
 pip3 install --upgrade \
 pip \
