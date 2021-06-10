@@ -9,7 +9,7 @@ This repo setups up a bare git repository and overlays it with your $HOME direct
 ## TLDR;
 
 ```bash
-curl -s https://raw.githubusercontent.com/wjdingman1/dev-config/master/dev-config/install-brew-and-zsh.bash | bash
-curl -s https://raw.githubusercontent.com/wjdingman1/dev-config/master/dev-config/setup-env.bash | bash
-~/dev-config/install-packages.bash
+curl -s https://raw.githubusercontent.com/wjdingman1/dev-config/master/dev-config/install-brew-and-zsh.sh | bash
+curl -s https://raw.githubusercontent.com/wjdingman1/dev-config/master/dev-config/setup-env.sh | bash
+~/dev-config/install-packages.sh
 ```
