@@ -1,1 +1,0 @@
-{"features":{"buildkit":true},"experimental":false,"builder":{"gc":{"enabled":true,"defaultKeepStorage":"20GB"}}}
