@@ -18,6 +18,7 @@ helm \
 docker \
 kubectl \
 python3 \
+vault \
 tree \
 ansible \
 hugo \
