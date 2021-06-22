@@ -18,6 +18,7 @@ helm \
 docker \
 kubectl \
 python3 \
+neofetch \
 vault \
 tree \
 ansible \
