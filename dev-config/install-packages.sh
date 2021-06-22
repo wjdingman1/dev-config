@@ -19,6 +19,7 @@ docker \
 kubectl \
 python3 \
 neofetch \
+tmux \
 vault \
 tree \
 ansible \
