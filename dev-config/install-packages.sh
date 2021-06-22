@@ -3,6 +3,7 @@
 brew install --cask
 iterm2 \
 brave-browser \
+alacritty \
 slack \
 discord \
 grammarly \
