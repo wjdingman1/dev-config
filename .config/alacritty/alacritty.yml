@@ -29,4 +29,4 @@ colors:
 env:
   TERM: xterm-256color
 
-background_opacity: 0.85
+background_opacity: 0.95
