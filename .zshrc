@@ -14,7 +14,10 @@ alias zshconfig='vim ~/.zshrc'
 alias ohmyzsh='vim ~/.oh-my-zsh'
 
 # Java
-export JAVA_HOME='/usr/libexec/java_home'
+export JAVA_HOME_8=$(/usr/libexec/java_home -v1.8)
+
+# Java 8
+export JAVA_HOME=$JAVA_HOME_8
 
 # Random Helpers
 get-port() {
