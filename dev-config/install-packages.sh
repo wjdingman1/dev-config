@@ -56,5 +56,5 @@ eslint \
 prettier \
 typescript \
 @vue/cli \
-snyk
-
+snyk \
+fx
