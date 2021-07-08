@@ -24,6 +24,12 @@ get-port() {
 	command lsof -i:"$@"
 }
 
+# Modern Unix
+alias ls='exa'
+alias cat='bat'
+alias grep='rg'
+alias df='duf'
+
 # Broad
 alias cromr='java -jar ~/Broad/Lantern/bin/cromwell-63.jar run'
 alias croms='java -jar -server ~/Broad/Lantern/bin/cromwell-63.jar run'

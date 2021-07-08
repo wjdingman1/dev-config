@@ -21,6 +21,11 @@ kubectl \
 python3 \
 neofetch \
 tmux \
+exa\
+bat\
+ripgrep \
+dust \
+duf \
 vault \
 tree \
 ansible \
