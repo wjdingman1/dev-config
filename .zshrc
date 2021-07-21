@@ -73,3 +73,5 @@ if [ -f '/Users/wdingman/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/wdingm
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/wdingman/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/wdingman/google-cloud-sdk/completion.zsh.inc'; fi
 
+#
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
