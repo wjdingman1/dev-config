@@ -19,6 +19,7 @@ helm \
 docker \
 kubectl \
 python3 \
+coreutils \
 neofetch \
 tmux \
 exa\
