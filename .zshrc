@@ -33,7 +33,7 @@ alias df='duf'
 # Broad
 alias cromr='java -jar ~/Broad/Lantern/bin/cromwell-63.jar run'
 alias croms='java -jar -server ~/Broad/Lantern/bin/cromwell-63.jar run'
-alias wom='java -jar ~/Broad/Lantern/bin/womtool-63.jar'
+alias wom='java -jar ~/Broad/Lantern/bin/womtool-66.jar'
 
 # Development Git Config
 alias config='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
