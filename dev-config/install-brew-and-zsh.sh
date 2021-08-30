@@ -9,3 +9,6 @@ brew install git
 brew install zsh
 sudo bash -C '/bin/zsh >> /etc/shells'
 chsh -s /bin/zsh
+
+#oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
