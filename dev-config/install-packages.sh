@@ -6,11 +6,10 @@ brave-browser \
 alacritty \
 slack \
 discord \
-grammarly \
 spotify \
 postman \
-visual-studio-code
-
+visual-studio-code \
+virtualbox
 
 brew install \
 git \
@@ -25,6 +24,7 @@ tmux \
 exa\
 bat\
 ripgrep \
+terraform \
 dust \
 duf \
 vault \
