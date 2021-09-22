@@ -75,3 +75,4 @@ if [ -f '/Users/wdingman/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/
 
 #
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
