@@ -15,9 +15,11 @@ alias ohmyzsh='vim ~/.oh-my-zsh'
 
 # Java
 export JAVA_HOME_8=$(/usr/libexec/java_home -v1.8)
+export JAVA_HOME_11=$(/usr/libexec/java_home -v1.11)
+export JAVA_HOME_14=$(/usr/libexec/java_home -v1.14)
 
-# Java 8
-export JAVA_HOME=$JAVA_HOME_8
+# Java Home
+export JAVA_HOME=$JAVA_HOME_14
 
 # Random Helpers
 
@@ -74,3 +76,12 @@ if [ -f '/Users/wdingman/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/
 #
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+
+# Spark 
+export SPARK_HOME=/opt/spark
+export SPARK_BIN=/opt/spark/bin
+
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+
+export PATH="$SPARK_HOME:$SPARK_BIN:$PATH"
