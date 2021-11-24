@@ -19,7 +19,7 @@ export JAVA_HOME_11=$(/usr/libexec/java_home -v1.11)
 export JAVA_HOME_14=$(/usr/libexec/java_home -v1.14)
 
 # Java Home
-export JAVA_HOME=$JAVA_HOME_14
+export JAVA_HOME=$JAVA_HOME_8
 
 # Random Helpers
 
@@ -85,3 +85,4 @@ export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 
 export PATH="$SPARK_HOME:$SPARK_BIN:$PATH"
+
