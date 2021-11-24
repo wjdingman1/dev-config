@@ -1,1 +1,41 @@
-Support/Code/User/settings.json
+{
+    // Javascript /////////////////////////////////
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "eslint.validate": [
+        "javascript",
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeActionsOnSave.mode": "problems",
+    // Python /////////////////////////////////////
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.formatOnSave": true,
+    },
+    // Go //////////////////////////////////////////
+    "go.lintTool": "golint",
+    "gopls": {
+        "formatting.gofumpt": true
+    },
+    // General ////////////////////////////////////
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.colorTheme": "Dracula",
+    "editor.tabSize": 2,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": -1
+}
+
