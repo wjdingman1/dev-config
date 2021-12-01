@@ -13,8 +13,10 @@
     "eslint.codeActionsOnSave.mode": "problems",
     // Python /////////////////////////////////////
     "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
     "[python]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": true
     },
     // Go //////////////////////////////////////////
     "go.lintTool": "golint",
@@ -29,7 +31,7 @@
         "*.ipynb": "jupyter-notebook"
     },
     "workbench.colorTheme": "Dracula",
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "diffEditor.ignoreTrimWhitespace": false,
     "notebook.cellToolbarLocation": {
         "default": "right",
