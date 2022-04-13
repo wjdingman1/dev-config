@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 brew install --cask
-iterm2 \
 brave-browser \
 alacritty \
 slack \

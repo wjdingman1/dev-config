@@ -27,13 +27,12 @@ export JAVA_HOME=$JAVA_HOME_8
 # Modern Unix
 alias ls='exa'
 alias cat='bat'
-alias grep='rg'
 alias df='duf'
 
 # Broad
 alias cromr='java -jar ~/Broad/Lantern/bin/cromwell-63.jar run'
 alias croms='java -jar -server ~/Broad/Lantern/bin/cromwell-63.jar run'
-alias wom='java -jar ~/Broad/Lantern/bin/womtool-66.jar'
+alias wom='java -jar ~/Broad/Lantern/bin/womtool-74.jar'
 
 # Development Git Config
 alias config='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
@@ -86,3 +85,6 @@ export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 
 export PATH="$SPARK_HOME:$SPARK_BIN:$PATH"
 
+# SQLite
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
+alias sqlite='sqlite3'

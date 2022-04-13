@@ -7,7 +7,8 @@
         "javascript",
     ],
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": true,
+        "source.fixAll.shellcheck": true
     },
     "eslint.alwaysShowStatus": true,
     "eslint.codeActionsOnSave.mode": "problems",
@@ -26,6 +27,7 @@
     // General ////////////////////////////////////
     "terminal.integrated.defaultProfile.osx": "zsh",
     "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "shellcheck.enableQuickFix": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
@@ -38,6 +40,12 @@
         "jupyter-notebook": "left"
     },
     "explorer.confirmDelete": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
     "window.zoomLevel": -1
 }
 
