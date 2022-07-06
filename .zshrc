@@ -14,9 +14,9 @@ alias zshconfig='vim ~/.zshrc'
 alias ohmyzsh='vim ~/.oh-my-zsh'
 
 # Java
-export JAVA_HOME_8=$(/usr/libexec/java_home -v1.8)
-export JAVA_HOME_11=$(/usr/libexec/java_home -v1.11)
-export JAVA_HOME_14=$(/usr/libexec/java_home -v1.14)
+# export JAVA_HOME_8=$(/usr/libexec/java_home -v1.8)
+# export JAVA_HOME_11=$(/usr/libexec/java_home -v1.11)
+# export JAVA_HOME_14=$(/usr/libexec/java_home -v1.14)
 
 # Java Home
 export JAVA_HOME=$JAVA_HOME_8
@@ -28,11 +28,6 @@ export JAVA_HOME=$JAVA_HOME_8
 alias ls='exa'
 alias cat='bat'
 alias df='duf'
-
-# Broad
-alias cromr='java -jar ~/Broad/Lantern/bin/cromwell-63.jar run'
-alias croms='java -jar -server ~/Broad/Lantern/bin/cromwell-63.jar run'
-alias wom='java -jar ~/Broad/Lantern/bin/womtool-74.jar'
 
 # Development Git Config
 alias config='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
@@ -66,15 +61,6 @@ alias gch='git checkout'
 alias gpl='git pull'
 alias gpu='git push'
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/wdingman/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/wdingman/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/wdingman/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/wdingman/google-cloud-sdk/completion.zsh.inc'; fi
-
-#
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export PATH="$HOME/Library/Python/3.9/bin:$PATH"
 
 # Spark 
 export SPARK_HOME=/opt/spark
