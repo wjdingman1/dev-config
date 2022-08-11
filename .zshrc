@@ -21,8 +21,15 @@ alias ohmyzsh='vim ~/.oh-my-zsh'
 # Java Home
 export JAVA_HOME=$JAVA_HOME_8
 
-# Random Helpers
-
+# Librdfkafka on M1 
+export C_INCLUDE_PATH="/usr/local/opt/librdkafka/include"
+export LIBARY_PATH="/usr/local/opt/librdkafka/lib"
+export CPPFLAGS="-DXMLSEC_NO_XKMS=1"
+export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
+export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
+export LDFLAGS="-L$(brew --prefix openssl@1.1)/lib"
+export CFLAGS="-I$(brew --prefix openssl@1.1)/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl@1.1/lib/pkgconfig"
 
 # Modern Unix
 alias ls='exa'
@@ -35,6 +42,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
 # Python
 alias python="python3"
 alias pip="pip3"
+export PATH="$PATH:$HOME/Library/Python/3.8/bin"
 
 # Go
 export GOPATH=$HOME/go
@@ -74,3 +82,6 @@ export PATH="$SPARK_HOME:$SPARK_BIN:$PATH"
 # SQLite
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 alias sqlite='sqlite3'
+
+# Local Development
+export CIS_PATH="/Users/wes.dingman/go/src/github.com/Sentinel-One/cis-benchmarks"
