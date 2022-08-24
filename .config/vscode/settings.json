@@ -1,26 +1,34 @@
 {
-    // Javascript /////////////////////////////////
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-    "eslint.validate": [
-        "javascript",
-    ],
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
         "source.fixAll.shellcheck": true
-    },
+    },    
     "eslint.alwaysShowStatus": true,
     "eslint.codeActionsOnSave.mode": "problems",
     // Python /////////////////////////////////////
+    "python.languageServer": "Pylance",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
     "python.formatting.provider": "black",
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": false,
     "[python]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": false
     },
     // Go //////////////////////////////////////////
-    "go.lintTool": "golint",
+    "[go]":{
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    }, 
+    "go.lintTool": "golangci-lint",
+    "go.buildTags": "dynamic",
+    "go.lintFlags": [
+        "--fast"
+    ],
     "gopls": {
         "formatting.gofumpt": true
     },
@@ -32,20 +40,18 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
-    "workbench.colorTheme": "Dracula",
-    "editor.tabSize": 4,
+    "diffEditor.codeLens": true,
+    "git.mergeEditor": false,
+    "workbench.colorTheme": "Panda Syntax",
     "diffEditor.ignoreTrimWhitespace": false,
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
+    "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
     "explorer.confirmDelete": false,
-    "bracketPairColorizer.depreciation-notice": false,
-    "files.watcherExclude": {
-        "**/.bloop": true,
-        "**/.metals": true,
-        "**/.ammonite": true
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "window.zoomLevel": -1
 }
-
