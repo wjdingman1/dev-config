@@ -69,6 +69,10 @@ alias gch='git checkout'
 alias gpl='git pull'
 alias gpu='git push'
 
+# K8s
+alias k='kubectl'
+alias kx='kubectx'
+alias kn='kubens'
 
 # Spark 
 export SPARK_HOME=/opt/spark

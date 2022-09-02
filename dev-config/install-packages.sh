@@ -16,6 +16,7 @@ node \
 helm \
 docker \
 kubectl \
+kubectx \
 python3 \
 coreutils \
 neofetch \
