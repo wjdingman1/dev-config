@@ -17,13 +17,16 @@ alias ohmyzsh='vim ~/.oh-my-zsh'
 # export JAVA_HOME_8=$(/usr/libexec/java_home -v1.8)
 # export JAVA_HOME_11=$(/usr/libexec/java_home -v1.11)
 # export JAVA_HOME_14=$(/usr/libexec/java_home -v1.14)
+export PATH=/opt/homebrew/opt/openjdk/bin:$PATH
 
 # Java Home
-export JAVA_HOME=$JAVA_HOME_8
+# export JAVA_HOME=$JAVA_HOME_8
 
 # Librdfkafka on M1 
+# export C_INCLUDE_PATH="/opt/homebrew/Cellar/librdkafka/1.9.2/include"
 export C_INCLUDE_PATH="/usr/local/opt/librdkafka/include"
 export LIBARY_PATH="/usr/local/opt/librdkafka/lib"
+# export LIBARY_PATH="/opt/hombrew/Cellar/librdkafka/1.9.2/lib"
 export CPPFLAGS="-DXMLSEC_NO_XKMS=1"
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
