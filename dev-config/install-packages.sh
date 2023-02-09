@@ -19,6 +19,7 @@ kubectl \
 kubectx \
 python3 \
 coreutils \
+pyenv \
 neofetch \
 tmux \
 exa \

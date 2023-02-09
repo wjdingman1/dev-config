@@ -40,12 +40,16 @@ alias cat='bat'
 alias df='duf'
 
 # Development Git Config
-alias config='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
+alias gconfig='/usr/bin/git --git-dir=$HOME/.dev-config.git --work-tree=$HOME'
 
 # Python
-alias python="python3"
-alias pip="pip3"
-export PATH="$PATH:$HOME/Library/Python/3.8/bin"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+fi
+
 
 # Go
 export GOPATH=$HOME/go
@@ -71,6 +75,7 @@ alias gchb='git checkout -b'
 alias gch='git checkout' 
 alias gpl='git pull'
 alias gpu='git push'
+alias del_branch='git fetch --prune && git branch -vv | awk "/: gone]/{print \$1}" | xargs git branch -D'
 
 # K8s
 alias k='kubectl'
